@@ -20,7 +20,7 @@ const AboutMe = () => {
     "@type": "Person",
     "name": "Mudabir Kowsar Khanday",
     "jobTitle": "Full-Stack MERN & React Native Developer",
-    "url": "https://your-portfolio-url.com",
+    "url": "https://mudabir-khanday.vercel.app/",
     "sameAs": [
       "https://github.com/mudabirkowsar",
       "https://www.linkedin.com/in/mudabir-kowsar/"

@@ -42,7 +42,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.mudabirkowsar.com",
+    url: "https://mudabir-khanday.vercel.app",
     title: "Mudabir Kowsar | Full-Stack MERN & React Native Developer",
     description: "Expert in building scalable web ecosystems and native mobile apps.",
     siteName: "Mudabir Kowsar Portfolio",
@@ -83,11 +83,10 @@ export default function RootLayout({ children }) {
     "name": "Mudabir Kowsar",
     "alternateName": "Mudabir Kowsar Khanday",
     "description": "Senior Full-Stack MERN & React Native Developer",
-    "url": "https://www.mudabirkowsar.com",
+    "url": "https://mudabir-khanday.vercel.app",
     "sameAs": [
       "https://github.com/mudabirkowsar",
       "https://www.linkedin.com/in/mudabir-kowsar/",
-      "https://twitter.com/your_handle"
     ],
     "jobTitle": "Full-Stack Developer",
     "knowsAbout": ["React", "React Native", "Node.js", "MongoDB", "Next.js", "TypeScript"]

@@ -39,7 +39,7 @@ export const metadata = {
   openGraph: {
     title: "Mudabir Kowsar Khanday | Full-Stack Engineer",
     description: "Expert in MERN Stack and React Native development.",
-    url: "https://your-portfolio-url.com",
+    url: "https://mudabir-khanday.vercel.app",
     siteName: "Mudabir Kowsar Portfolio",
     images: [
       {
