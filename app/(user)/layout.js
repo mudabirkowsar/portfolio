@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 // 1. ADVANCED SEO METADATA
 export const metadata = {
-  metadataBase: new URL('https://www.mudabirkowsar.com'), // Replace with your actual domain
+  metadataBase: new URL('https://mudabir-khanday.vercel.app'), // Replace with your actual domain
   title: {
     default: "Mudabir Kowsar | Senior MERN & React Native Developer",
     template: "%s | Mudabir Kowsar"

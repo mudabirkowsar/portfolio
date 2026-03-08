@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "eslint"
   },
   "dependencies": {
-    "@tailwindcss/oxide-win32-x64-msvc": "^4.2.1",
     "framer-motion": "^12.35.0",
     "lucide-react": "^0.577.0",
     "next": "16.1.6",
