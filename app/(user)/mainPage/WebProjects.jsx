@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink, Github, Globe, Layers, Database, Layout } from "lucide-react";
+import Link from "next/link";
 
 const projects = [
   {
@@ -40,7 +41,7 @@ const WebProjects = () => {
   return (
     <section id="projects" className="py-24 bg-slate-50 dark:bg-slate-900/50">
       <div className="container mx-auto px-6">
-        
+
         {/* Section Heading */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
           <div>
@@ -52,7 +53,10 @@ const WebProjects = () => {
             </p>
           </div>
           <div className="flex items-center gap-2 text-blue-600 font-semibold cursor-pointer hover:underline">
-            View all projects <ExternalLink size={18} />
+            <Link href="/projects" className="flex items-center gap-1">
+              View All Projects
+              <ExternalLink size={16} />
+            </Link>
           </div>
         </div>
 
@@ -77,8 +81,8 @@ const WebProjects = () => {
                 </div>
                 {/* Image */}
                 <div className="relative h-48 md:h-56 overflow-hidden rounded-t-xl border border-slate-200 dark:border-slate-700">
-                  <img 
-                    src={project.image} 
+                  <img
+                    src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -93,11 +97,11 @@ const WebProjects = () => {
                     {project.category}
                   </span>
                 </div>
-                
+
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-blue-600 transition-colors">
                   {project.title}
                 </h3>
-                
+
                 <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
                   {project.description}
                 </p>
@@ -113,14 +117,14 @@ const WebProjects = () => {
 
                 {/* Links */}
                 <div className="flex items-center gap-4 pt-4 border-t border-slate-100 dark:border-slate-800">
-                  <a 
-                    href={project.githubLink} 
+                  <a
+                    href={project.githubLink}
                     className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white transition-colors"
                   >
                     <Github size={18} /> Code
                   </a>
-                  <a 
-                    href={project.liveLink} 
+                  <a
+                    href={project.liveLink}
                     className="flex items-center gap-2 text-sm font-semibold text-white bg-slate-900 dark:bg-blue-600 px-4 py-2 rounded-xl hover:bg-blue-700 transition-all active:scale-95 shadow-lg shadow-blue-500/20"
                   >
                     <Globe size={18} /> Live Demo
