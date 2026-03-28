@@ -52,7 +52,7 @@ const ContactPage = () => {
         {
             icon: <Github className="text-slate-700 dark:text-slate-300" />,
             title: "GitHub",
-            value: "github.com/yourusername",
+            value: "GitHub",
             link: "https://github.com/mudabirkowsar"
         }
     ];
